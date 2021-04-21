@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1816CB752630569900AB611F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816CB742630569900AB611F /* AppDelegate.swift */; };
+		1816CB772630569900AB611F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816CB762630569900AB611F /* SceneDelegate.swift */; };
+		1816CB792630569900AB611F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816CB782630569900AB611F /* ViewController.swift */; };
+		1816CB7C2630569900AB611F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1816CB7A2630569900AB611F /* Main.storyboard */; };
+		1816CB7E2630569F00AB611F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1816CB7D2630569F00AB611F /* Assets.xcassets */; };
+		1816CB812630569F00AB611F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1816CB7F2630569F00AB611F /* LaunchScreen.storyboard */; };
+		1816CB8C2630569F00AB611F /* Affective_Foretell_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816CB8B2630569F00AB611F /* Affective_Foretell_2Tests.swift */; };
+		1816CB972630569F00AB611F /* Affective_Foretell_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816CB962630569F00AB611F /* Affective_Foretell_2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1816CB882630569F00AB611F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1816CB692630569900AB611F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1816CB702630569900AB611F;
+			remoteInfo = "Affective Foretell 2";
+		};
+		1816CB932630569F00AB611F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1816CB692630569900AB611F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1816CB702630569900AB611F;
+			remoteInfo = "Affective Foretell 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1816CB712630569900AB611F /* Affective Foretell 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Affective Foretell 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1816CB742630569900AB611F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1816CB762630569900AB611F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1816CB782630569900AB611F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1816CB7B2630569900AB611F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1816CB7D2630569F00AB611F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1816CB802630569F00AB611F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1816CB822630569F00AB611F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1816CB872630569F00AB611F /* Affective Foretell 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Affective Foretell 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1816CB8B2630569F00AB611F /* Affective_Foretell_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affective_Foretell_2Tests.swift; sourceTree = "<group>"; };
+		1816CB8D2630569F00AB611F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1816CB922630569F00AB611F /* Affective Foretell 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Affective Foretell 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1816CB962630569F00AB611F /* Affective_Foretell_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affective_Foretell_2UITests.swift; sourceTree = "<group>"; };
+		1816CB982630569F00AB611F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1816CB6E2630569900AB611F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1816CB842630569F00AB611F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1816CB8F2630569F00AB611F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1816CB682630569900AB611F = {
+			isa = PBXGroup;
+			children = (
+				1816CB732630569900AB611F /* Affective Foretell 2 */,
+				1816CB8A2630569F00AB611F /* Affective Foretell 2Tests */,
+				1816CB952630569F00AB611F /* Affective Foretell 2UITests */,
+				1816CB722630569900AB611F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1816CB722630569900AB611F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1816CB712630569900AB611F /* Affective Foretell 2.app */,
+				1816CB872630569F00AB611F /* Affective Foretell 2Tests.xctest */,
+				1816CB922630569F00AB611F /* Affective Foretell 2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1816CB732630569900AB611F /* Affective Foretell 2 */ = {
+			isa = PBXGroup;
+			children = (
+				1816CB742630569900AB611F /* AppDelegate.swift */,
+				1816CB762630569900AB611F /* SceneDelegate.swift */,
+				1816CB782630569900AB611F /* ViewController.swift */,
+				1816CB7A2630569900AB611F /* Main.storyboard */,
+				1816CB7D2630569F00AB611F /* Assets.xcassets */,
+				1816CB7F2630569F00AB611F /* LaunchScreen.storyboard */,
+				1816CB822630569F00AB611F /* Info.plist */,
+			);
+			path = "Affective Foretell 2";
+			sourceTree = "<group>";
+		};
+		1816CB8A2630569F00AB611F /* Affective Foretell 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1816CB8B2630569F00AB611F /* Affective_Foretell_2Tests.swift */,
+				1816CB8D2630569F00AB611F /* Info.plist */,
+			);
+			path = "Affective Foretell 2Tests";
+			sourceTree = "<group>";
+		};
+		1816CB952630569F00AB611F /* Affective Foretell 2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1816CB962630569F00AB611F /* Affective_Foretell_2UITests.swift */,
+				1816CB982630569F00AB611F /* Info.plist */,
+			);
+			path = "Affective Foretell 2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1816CB702630569900AB611F /* Affective Foretell 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1816CB9B2630569F00AB611F /* Build configuration list for PBXNativeTarget "Affective Foretell 2" */;
+			buildPhases = (
+				1816CB6D2630569900AB611F /* Sources */,
+				1816CB6E2630569900AB611F /* Frameworks */,
+				1816CB6F2630569900AB611F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Affective Foretell 2";
+			productName = "Affective Foretell 2";
+			productReference = 1816CB712630569900AB611F /* Affective Foretell 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1816CB862630569F00AB611F /* Affective Foretell 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1816CB9E2630569F00AB611F /* Build configuration list for PBXNativeTarget "Affective Foretell 2Tests" */;
+			buildPhases = (
+				1816CB832630569F00AB611F /* Sources */,
+				1816CB842630569F00AB611F /* Frameworks */,
+				1816CB852630569F00AB611F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1816CB892630569F00AB611F /* PBXTargetDependency */,
+			);
+			name = "Affective Foretell 2Tests";
+			productName = "Affective Foretell 2Tests";
+			productReference = 1816CB872630569F00AB611F /* Affective Foretell 2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1816CB912630569F00AB611F /* Affective Foretell 2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1816CBA12630569F00AB611F /* Build configuration list for PBXNativeTarget "Affective Foretell 2UITests" */;
+			buildPhases = (
+				1816CB8E2630569F00AB611F /* Sources */,
+				1816CB8F2630569F00AB611F /* Frameworks */,
+				1816CB902630569F00AB611F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1816CB942630569F00AB611F /* PBXTargetDependency */,
+			);
+			name = "Affective Foretell 2UITests";
+			productName = "Affective Foretell 2UITests";
+			productReference = 1816CB922630569F00AB611F /* Affective Foretell 2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1816CB692630569900AB611F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1816CB702630569900AB611F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1816CB862630569F00AB611F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1816CB702630569900AB611F;
+					};
+					1816CB912630569F00AB611F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1816CB702630569900AB611F;
+					};
+				};
+			};
+			buildConfigurationList = 1816CB6C2630569900AB611F /* Build configuration list for PBXProject "Affective Foretell 2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1816CB682630569900AB611F;
+			productRefGroup = 1816CB722630569900AB611F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1816CB702630569900AB611F /* Affective Foretell 2 */,
+				1816CB862630569F00AB611F /* Affective Foretell 2Tests */,
+				1816CB912630569F00AB611F /* Affective Foretell 2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1816CB6F2630569900AB611F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1816CB812630569F00AB611F /* LaunchScreen.storyboard in Resources */,
+				1816CB7E2630569F00AB611F /* Assets.xcassets in Resources */,
+				1816CB7C2630569900AB611F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1816CB852630569F00AB611F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1816CB902630569F00AB611F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1816CB6D2630569900AB611F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1816CB792630569900AB611F /* ViewController.swift in Sources */,
+				1816CB752630569900AB611F /* AppDelegate.swift in Sources */,
+				1816CB772630569900AB611F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1816CB832630569F00AB611F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1816CB8C2630569F00AB611F /* Affective_Foretell_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1816CB8E2630569F00AB611F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1816CB972630569F00AB611F /* Affective_Foretell_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1816CB892630569F00AB611F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1816CB702630569900AB611F /* Affective Foretell 2 */;
+			targetProxy = 1816CB882630569F00AB611F /* PBXContainerItemProxy */;
+		};
+		1816CB942630569F00AB611F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1816CB702630569900AB611F /* Affective Foretell 2 */;
+			targetProxy = 1816CB932630569F00AB611F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1816CB7A2630569900AB611F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1816CB7B2630569900AB611F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1816CB7F2630569F00AB611F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1816CB802630569F00AB611F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1816CB992630569F00AB611F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1816CB9A2630569F00AB611F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1816CB9C2630569F00AB611F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V29FRN8HHJ;
+				INFOPLIST_FILE = "Affective Foretell 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tianyi-chen.Affective-Foretell-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1816CB9D2630569F00AB611F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V29FRN8HHJ;
+				INFOPLIST_FILE = "Affective Foretell 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tianyi-chen.Affective-Foretell-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1816CB9F2630569F00AB611F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V29FRN8HHJ;
+				INFOPLIST_FILE = "Affective Foretell 2Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tianyi-chen.Affective-Foretell-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Affective Foretell 2.app/Affective Foretell 2";
+			};
+			name = Debug;
+		};
+		1816CBA02630569F00AB611F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V29FRN8HHJ;
+				INFOPLIST_FILE = "Affective Foretell 2Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tianyi-chen.Affective-Foretell-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Affective Foretell 2.app/Affective Foretell 2";
+			};
+			name = Release;
+		};
+		1816CBA22630569F00AB611F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V29FRN8HHJ;
+				INFOPLIST_FILE = "Affective Foretell 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tianyi-chen.Affective-Foretell-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Affective Foretell 2";
+			};
+			name = Debug;
+		};
+		1816CBA32630569F00AB611F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V29FRN8HHJ;
+				INFOPLIST_FILE = "Affective Foretell 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tianyi-chen.Affective-Foretell-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Affective Foretell 2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1816CB6C2630569900AB611F /* Build configuration list for PBXProject "Affective Foretell 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1816CB992630569F00AB611F /* Debug */,
+				1816CB9A2630569F00AB611F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1816CB9B2630569F00AB611F /* Build configuration list for PBXNativeTarget "Affective Foretell 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1816CB9C2630569F00AB611F /* Debug */,
+				1816CB9D2630569F00AB611F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1816CB9E2630569F00AB611F /* Build configuration list for PBXNativeTarget "Affective Foretell 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1816CB9F2630569F00AB611F /* Debug */,
+				1816CBA02630569F00AB611F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1816CBA12630569F00AB611F /* Build configuration list for PBXNativeTarget "Affective Foretell 2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1816CBA22630569F00AB611F /* Debug */,
+				1816CBA32630569F00AB611F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1816CB692630569900AB611F /* Project object */;
+}
