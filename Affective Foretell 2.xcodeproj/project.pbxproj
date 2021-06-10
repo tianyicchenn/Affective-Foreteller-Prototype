@@ -15,6 +15,8 @@
 		1816CB812630569F00AB611F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1816CB7F2630569F00AB611F /* LaunchScreen.storyboard */; };
 		1816CB8C2630569F00AB611F /* Affective_Foretell_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816CB8B2630569F00AB611F /* Affective_Foretell_2Tests.swift */; };
 		1816CB972630569F00AB611F /* Affective_Foretell_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816CB962630569F00AB611F /* Affective_Foretell_2UITests.swift */; };
+		18647080264A907E0055C880 /* MP.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1864707F264A907D0055C880 /* MP.gif */; };
+		18647085264A91300055C880 /* HN.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18647084264A91300055C880 /* HN.gif */; };
 		18CE59D6263FFE3600C3FA61 /* ML.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18CE59D5263FFE3600C3FA61 /* ML.gif */; };
 		18CE59DB2640014A00C3FA61 /* IOSDevCenters+DIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE59DA2640014A00C3FA61 /* IOSDevCenters+DIF.swift */; };
 		18CE59E0264006A200C3FA61 /* HistoryDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE59DF264006A200C3FA61 /* HistoryDataViewController.swift */; };
@@ -54,6 +56,8 @@
 		1816CB922630569F00AB611F /* Affective Foretell 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Affective Foretell 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1816CB962630569F00AB611F /* Affective_Foretell_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affective_Foretell_2UITests.swift; sourceTree = "<group>"; };
 		1816CB982630569F00AB611F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1864707F264A907D0055C880 /* MP.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MP.gif; sourceTree = "<group>"; };
+		18647084264A91300055C880 /* HN.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HN.gif; sourceTree = "<group>"; };
 		18CE59D5263FFE3600C3FA61 /* ML.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ML.gif; sourceTree = "<group>"; };
 		18CE59DA2640014A00C3FA61 /* IOSDevCenters+DIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IOSDevCenters+DIF.swift"; sourceTree = "<group>"; };
 		18CE59DF264006A200C3FA61 /* HistoryDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDataViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				18CE59D5263FFE3600C3FA61 /* ML.gif */,
+				1864707F264A907D0055C880 /* MP.gif */,
+				18647084264A91300055C880 /* HN.gif */,
 				18CE59F52643ED3F00C3FA61 /* LN.gif */,
 				1816CB732630569900AB611F /* Affective Foretell 2 */,
 				1816CB8A2630569F00AB611F /* Affective Foretell 2Tests */,
@@ -249,7 +255,9 @@
 				18CE59F62643ED4100C3FA61 /* LN.gif in Resources */,
 				1816CB812630569F00AB611F /* LaunchScreen.storyboard in Resources */,
 				1816CB7E2630569F00AB611F /* Assets.xcassets in Resources */,
+				18647080264A907E0055C880 /* MP.gif in Resources */,
 				1816CB7C2630569900AB611F /* Main.storyboard in Resources */,
+				18647085264A91300055C880 /* HN.gif in Resources */,
 				18CE59D6263FFE3600C3FA61 /* ML.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

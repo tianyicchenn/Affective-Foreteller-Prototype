@@ -12,7 +12,7 @@ private let planewidth: CGFloat = 0.36
 private let planeheight: CGFloat = 0.36
 private let nodeYPosition: Float = 0.020
 private let forecastImageView = UIImageView()
-let gifImage = UIImage.gifImageWithName("ML")
+let gifImage = UIImage.gifImageWithName("MP")
 let gifImageView = UIImageView(image: gifImage)
 
 class ForecastViewController: UIViewController {
@@ -66,7 +66,7 @@ extension ForecastViewController: ARSCNViewDelegate {
         forecastNode.position.y = nodeYPosition
         forecastNode.geometry = forecastPlane
         
-        bgPlane.firstMaterial?.diffuse.contents = #imageLiteral(resourceName: "glow")
+        bgPlane.firstMaterial?.diffuse.contents = #imageLiteral(resourceName: "glow2")
         bgPlane.firstMaterial?.isDoubleSided = true
         bgNode.position.z = faceNode.position.z
         bgNode.position.y = nodeYPosition
